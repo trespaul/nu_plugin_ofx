@@ -1,0 +1,11 @@
+[package]
+name = "nu_plugin_ofx"
+version = "0.1.0"
+edition = "2024"
+license = "ISC"
+
+[dependencies]
+chrono = "0.4.45"
+nu-plugin = "0.116.1"
+nu-protocol = "0.116.1"
+ofx-rs = "0.2.0"
